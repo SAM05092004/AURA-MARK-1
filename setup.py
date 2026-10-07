@@ -1,5 +1,5 @@
 """
-MARK LIV — one-time setup.
+MARK LV — AURA (Automated User Response Assistant) — one-time setup.
 
 Installs the Python dependencies for THIS operating system only: the OS-specific
 packages in requirements.txt carry `sys_platform` markers, so a macOS or Linux
@@ -122,7 +122,7 @@ def main() -> None:
     print("\n✅ Setup complete!")
     print("   1) Launch it:  python main.py")
     print("   2) Paste your free Gemini API key when the setup screen appears.")
-    print("   3) (Optional) Enable 'Hey Jarvis' from ⚙ → WAKE WORD.")
+    print("   3) (Optional) Enable wake word from ⚙ → WAKE WORD.")
 
 
 if __name__ == "__main__":
